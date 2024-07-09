@@ -1,0 +1,95 @@
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* from mike bostock example winkel tipel */
+.stroke {
+  fill: none;
+  stroke: #000;
+  stroke-width: 3px;
+}
+
+.fill {
+  fill: #fff;
+}
+
+.graticule {
+  fill: none;
+  stroke: #777;
+  stroke-width: .5px;
+  stroke-opacity: .5;
+}
+
+.land {
+  fill: #222;
+}
+
+#slider{
+    position: absolute;
+    top: 700px;
+    left: 60px;
+}
+
+label {
+    position: relative;
+    padding: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+#selectButton{
+    position: relative;
+    min-width: 190px;
+    border: none;
+    font-size: 16px;
+    line-height: 2.5;
+    color: black;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.option:hover {
+    background-color: lightcoral;
+}
+.viz{
+  display:flex;
+}
+.list{
+  position: relative;
+  right: 150px;;
+}
+.container{
+  position: relative;
+  right: 140px;
+}
+image{
+  width: 75%;
+  height: auto;
+}
+
+#tooltip {
+    opacity: 0.92;
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(224, 101, 105);
+    border-radius: 5px;
+    border: none;
+    color: black;
+    pointer-events: none;
+    font-size: 14px;
+}
+
+#tooltip.hidden {
+    display: none;
+}
