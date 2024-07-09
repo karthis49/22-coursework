@@ -1,0 +1,15 @@
+CSE 101 PA 1 
+
+Files:
+
+- README
+
+- Makefile - used for compilation/execution of the program
+
+- List.h - header file for List ADT
+
+- List.c - List ADT containing all of the specified function as outlined in the assignment
+
+- ListTest.c - File used to test the List ADT
+
+- Lex.c - the "main" file responsible for execution and "sorting" of words in a file, making use of the List ADT

@@ -1,0 +1,20 @@
+README for CSE 101 Programming Assignment 7
+
+Dictionary.h - Header file for Dictionary ADT
+
+Dictionary.cpp - Dictionary ADT containing all specified functions
+
+DictionaryTest.cpp - Test file for Dictionary ADT
+
+Order.cpp - Main file containing File IO and use of Graph ADT. 
+            Opens an input file, reads it contents to make Dictionary,
+            and outputs to the specified file.
+
+Makefile - Makefile for PA7 used for compilation
+
+Run with:
+make: make or makeDictionaryTest
+run: ./DictionaryTest or ./Order
+extra valgrind checks: make DictionaryCheck or OrderCheck
+
+No extra notes

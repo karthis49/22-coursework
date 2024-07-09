@@ -1,0 +1,35 @@
+README for PA 3
+
+List.c:
+List ADT containing all specified functions
+ 
+List.h:
+Header file for List ADT
+
+Graph.h:
+Header file for Graph ADT
+
+GraphTest.c:
+Test file for Graph ADT
+Tests all functions in Graph.c on 2 unique examples
+
+Graph.c:
+Graph ADT containing all specified functions
+Changed file from PA2 to include DFS(), visit(), transpose(), getDiscover(), getFinish()
+In function visit(), time is a local variable in DFS(), 
+then the address of time is passed to visit()
+
+FindComponents.c:
+Main file containing File IO and use of List/Graph ADT
+Used to find the strongly connected components of a
+directed graph using DFS(), transpose(), and the use of a List 
+
+Makefile:
+Makefile for assignment 3
+
+Run with:
+make: GraphTest or FindComponents
+run: ./GraphTest or ./FindComponents
+
+No extra notes
+

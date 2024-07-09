@@ -1,0 +1,31 @@
+README for PA4
+
+List.c:
+List ADT containing all specified functions
+ 
+List.h:
+Header file for List ADT
+
+Matrix.c:
+Mattrix ADT containing all specified functions
+
+Matrix.h:
+Header file for Matrix ADT
+
+Sparse.c:
+Main file containing file I/O and use of List/Matrix ADTs
+
+MatrixTest.c
+Test file for Matrix ADT
+
+ListTest.c
+Test file for List ADT
+
+Makefile:
+Makefile for PA4
+
+Run with:
+make: MatrixTest or Sparse
+run: ./MatrixTest or ./Sparse
+
+No extra notes

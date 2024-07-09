@@ -1,0 +1,27 @@
+README for CSE 101 Programming Assignment 8
+
+Dictionary.h - Header file for Dictionary ADT
+
+Dictionary.cpp - Dictionary ADT containing all specified functions
+
+DictionaryTest.cpp - Test file for Dictionary ADT
+
+Order.cpp - Main file containing File IO and use of Dictionary ADT.
+            Opens an input file, reads it contents to make a Dictionary, Each    
+            word and its line number in the file will be printed to the  
+            specified output file.
+
+WordFrequency.cpp - Main file containing File IO and use of Dictionary ADT.
+                    Opens an input file, reads its contents to make a Dictionary,
+                    with each key being a unique word in the file and each value being
+                    that word's frequency (number of occurences) in the file. The 
+                    Dictionary will be printed to the specified output file.                                  
+
+Makefile: Makefile for PA8 used for compilation
+
+Run with:
+make: make or makeDictionaryTest
+run: ./DictionaryTest or ./Order <input file> <output file> or ./WordFrequency <input file> <output file>
+valgrind checks: makeDictionaryCheck or makeWordFrequencyCheck
+
+No extra notes

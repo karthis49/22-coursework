@@ -1,0 +1,24 @@
+README for PA 2
+
+List.c - List ADT containing all specified functions
+ 
+List.h - Header file for List ADT
+
+Graph.h - Header file for Graph ADT
+
+Graph.c - Graph ADT containing all specified functions
+
+GraphTest.c - Test file for Graph ADT
+
+FindPath.c - Main file containing File IO and use of List/Graph ADT
+
+Makefile - Makefile for assignment 2
+
+Run with:
+make: GraphTest or FindPath
+run: ./GraphTest or ./FindPath
+
+
+No extra notes
+
+

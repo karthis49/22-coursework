@@ -1,0 +1,13 @@
+README for PA6
+
+Arithmetic.cpp: Main file
+
+BigInteger.h: header file for bigInt
+BigInteger.cpp: bigInt ADT
+BigIntegerTest.cpp: test file for BigInt
+
+List.h: header file for list
+List.cpp: list adt
+ListTest.c: test file for list
+
+Makefile: makefile for PA6
