@@ -1,2 +1,2 @@
-# 22-coursework
+# UCSC coursework
 
